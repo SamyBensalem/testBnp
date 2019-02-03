@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<bean id="Orange" class="entities.Item">
+		<property name="name" value="orange" />
+		<property name="price" value="0.50"></property>
+	</bean>
+	<bean id="Apple" class="entities.Item">
+		<property name="name" value="apple" />
+		<property name="price" value="0.20"></property>
+	</bean>
+	<bean id="Watermelon" class="entities.Item">
+		<property name="name" value="watermelon" />
+		<property name="price" value="0.80"></property>
+	</bean>
+</beans>
